@@ -22,7 +22,7 @@ export function WalletStatus() {
     }
   );
 
-  // Check if user has AdminCap
+  
   const { data: adminCap } = useSuiClientQuery(
     "getOwnedObjects",
     {
